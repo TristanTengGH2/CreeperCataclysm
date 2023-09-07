@@ -1,6 +1,7 @@
 package com.skle.creepercataclysm.commands.debug;
 
 import com.skle.creepercataclysm.api.CreeperCataclysmPlugin;
+import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -19,6 +20,7 @@ public class SetPlayers implements CommandExecutor {
             return false;
         }
         plugin.setMaxPlayers(Integer.parseInt(args[0]));
+        sender.sendMessage(ChatColor.RED + "[DEBUG] GAME PLAYERS SET TO " + args[0]);
         return true;
     }
 }
