@@ -19,7 +19,7 @@ public class ZoneMapCommand implements CommandExecutor {
         if(!(sender instanceof Player player)) {
             return false;
         }
-        player.sendMessage(ChatColor.AQUA + "You have been given a map zoning stick! Click when you are standing in the correct position.");
+        player.sendMessage(ChatColor.AQUA + "You have been given a map zoning stick! Click anywhere to get started.");
         player.getInventory().addItem(plugin.getZoneManager().getMapZoneWand());
         return true;
     }
