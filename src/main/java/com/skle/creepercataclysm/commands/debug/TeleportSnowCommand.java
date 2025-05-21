@@ -20,7 +20,7 @@ public class TeleportSnowCommand implements CommandExecutor {
         if(!(sender instanceof Player player)) {
             return false;
         }
-        player.teleport(new Location(player.getWorld(), 1210, -46, 975));
+        player.teleport(new Location(player.getWorld(), 1066, -47, 1092));
         return true;
     }
 }
