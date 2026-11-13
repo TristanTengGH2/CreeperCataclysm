@@ -13,6 +13,19 @@
 
 ---
 
+## 📸 Gameplay
+
+<table>
+  <tr>
+    <td width="50%"><img src="docs/images/gameplay-1.webp" alt="Overhead view of a cavern map lit by glowing flowers"></td>
+    <td width="50%"><img src="docs/images/gameplay-2.webp" alt="Attackers and defenders fighting in a lava filled cave"></td>
+  </tr>
+  <tr>
+    <td align="center"><sub>A cavern map seen from above</sub></td>
+    <td align="center"><sub>A fight in the lava cave</sub></td>
+  </tr>
+</table>
+
 ## 🎮 How It Works
 
 Players queue up, get shuffled onto two teams, and are dropped into a map for a timed match.
